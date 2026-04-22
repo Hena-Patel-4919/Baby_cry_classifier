@@ -206,6 +206,6 @@ model_path = os.path.join(MODEL_PATH, model_name)
 
 torch.save(model.state_dict(), model_path)
 
-print("\n✅ Saved everything!")
-print(f"📊 Reports → {REPORT_PATH}")
-print(f"💾 Model → {model_path}")
+print("\n Saved everything!")
+print(f" Reports → {REPORT_PATH}")
+print(f" Model → {model_path}")
